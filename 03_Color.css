@@ -1,0 +1,25 @@
+.color1 {
+    color: red;
+}
+
+/* RedGreenBlue */
+/* 00-ff */
+.color2 {
+    /* color: #5F9EA0; */
+    color: #0000ff
+}
+
+.color3 {
+    color: #000
+}
+
+/* RGB 0-255 */
+.color4 {
+    color: rgb(0, 200, 0)
+
+}
+
+/* RGBA, где А - прозрачность 0-1*/
+.color5 {
+    color: RGBA(0, 0, 150, 0.5)
+}

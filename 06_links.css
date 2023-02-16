@@ -1,0 +1,45 @@
+a {
+    color: #1b537a;
+    text-decoration: none;
+    /* Медленное увеличение: */
+    /* transition: all.2s; */
+}
+
+/* Псевдоселектор: */
+a:hover {
+    /* Ссылка еняет цвет при наведении курсором: */
+    color: blue;
+    /* Ссылка увеличивается при наведении курсором: */
+    /* font-size: 2rem; */
+}
+
+a:visited {
+    /* После перехода по ссылке меняется цвет: */
+    color: red;
+}
+
+a:active {
+    /* Удерживается цвет при долгом нажатии на ссылку: */
+    color:aqua;
+}
+
+.css:hover {
+    background: red;
+}
+
+.btn {
+    background: brown;
+    padding: 15px 20px;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Сделать для ссылки такой же шрифт, как у всего сайта: */
+    font-family: inherit;
+}
+
+.btn:hover {
+    /* При наведении курсором кнопка становится светлее: */
+    opacity: 0.8;
+    color: orangered;
+}

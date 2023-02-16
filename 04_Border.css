@@ -1,0 +1,33 @@
+.border1 {
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: blue; */
+    border: 2px solid blue;
+    border-radius: 5px;
+
+}
+
+/* bottom - нижняя граница, top - верхняя граница, rigtt - правая, left - левая */
+.border2 {
+    border-bottom: 2px solid darkblue;
+    border-left: 4px solid blue;
+    border-bottom-left-radius: 5px;
+
+}
+
+/*  padding-left - отступ от границы */
+.border3 {
+    border-left: 6px solid olive;
+    background: lightsalmon;
+    padding-left: 10px; 
+
+
+}
+
+/* Круг */
+.circle {
+    width: 50px;
+    height: 50px;
+    background: green;
+    border-radius: 50%;
+}

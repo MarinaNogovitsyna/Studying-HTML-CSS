@@ -1,0 +1,42 @@
+.playground{
+    /* По умолчанию position:static */
+    /* Прикрепляем квадрат в определенном месте: */
+   position: relative;
+    border: 4px solid black;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.pos-box{
+    /* При фиксации элемент будет в одном месте экрана при скроллинге */
+    /* position: fixed; */
+    position: absolute;
+    /* Когда position: absolute; мы можем управлять локацией элемента 
+    через top right bottom */
+    /* top:0; left:0; => , будет прижат к самому краю*/
+    /* top:0;
+    left:0; */
+
+    /* Переместить квадрат в правый нижний угол: */
+    bottom: 0;
+    right: 0;
+
+    width: 50px;
+    height: 50px;
+    background: coral;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    /* Чтобы фиксированная строка перекрывала остальные элементы при скроллинге: */
+    z-index: 2;
+}
+
+/* Чтобы самый верхний заголовок был виден под фиксированным navbar: */
+#header{
+    margin-top: 60px;
+}

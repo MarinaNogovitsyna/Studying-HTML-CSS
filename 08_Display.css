@@ -1,0 +1,20 @@
+.inline li{
+    /* Элементы в строку: */
+    display: inline;
+}
+
+.box {
+    width: 32%;
+    border: 1px solid black;
+    background: #f4f4f4;
+    /* Блоки в линию (два блока в одной строке  и один блок в другой: */
+    display: inline-block;
+    /* Блоки в одну линию без переноса: */
+    box-sizing: border-box;
+}
+
+.img {
+    width: 200px;
+    display: block;
+    margin: 40px auto;
+}
